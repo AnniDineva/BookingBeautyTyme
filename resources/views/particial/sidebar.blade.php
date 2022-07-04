@@ -1,6 +1,6 @@
     <!-- loader  -->
     <div class="loader_bg">
-        <div class="loader"><img src="images/loading.gif" alt="" /></div>
+        <div class="loader"><img src="{{asset('images/loading.gif')}}" alt="" /></div>
     </div>
 
     <div class="wrapper">
@@ -17,7 +17,7 @@
                 <ul class="list-unstyled components">
 
                     <li class="active">
-                        <a href="index.html">Home</a>
+                        <a href="{{route('home')}}">Home</a>
                     </li>
                     @guest
                     <li>
@@ -26,28 +26,28 @@
                     @endguest
                     
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="{{route('staticPage', ['page'=>'about'])}}">About</a>
                     </li>
                     <li>
-                        <a href="service.html">Service</a>
+                        <a href="{{route('staticPage', ['page'=>'service'])}}">Service</a>
                     </li>
                     <li>
-                        <a href="pricing.html">Pricing</a>
-                    </li>
-
-                    <li>
-                        <a href="barbers.html">Our Barbers</a>
-
+                        <a href="{{route('staticPage', ['page'=>'pricing'])}}">Pricing</a>
                     </li>
 
                     <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="{{route('staticPage', ['page'=>'barbers'])}}">Our Barbers</a>
+
+                    </li>
+
+                    <li>
+                        <a href="{{route('staticPage', ['page'=>'contact'])}}">Contact Us</a>
                     </li>
                     @auth
                     <li>
                         <form action="{{route('logout')}}" method="POST">
                             @csrf
-                            <button type="submit" class="btn btn-link">
+                            <button type="submit" class="btn btn-link linkMenu">
                                 Logout
                             </button>
                         </form>
@@ -58,5 +58,3 @@
             </nav>
         </div>
 
-        @include('auth.login')
-       

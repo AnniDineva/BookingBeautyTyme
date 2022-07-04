@@ -1,5 +1,6 @@
-{{ session()->get('error_code') }}
-@if(!empty(Session::get('error_code')) && Session::get('error_code') == 5)
+@extends('layouts.layout')
+@section('content')
+
 
 <script type="text/javascript">
 
@@ -8,7 +9,7 @@
     
     });
     </script>
-@endif
+
 
 <!-- Modal -->
 <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
@@ -78,3 +79,15 @@
         </div>
     </div>
 </div>
+
+<style>
+    @media screen and (min-height: 615px) and (min-width: 1120px) {
+        #footer {
+            position: absolute;
+            top: 30.5%;
+            width: 100%;
+    }
+        }
+      }
+    </style>
+@endsection

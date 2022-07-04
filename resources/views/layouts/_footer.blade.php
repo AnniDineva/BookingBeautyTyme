@@ -1,11 +1,11 @@
  <!-- footer -->
  <footer>
-    <div class="footer">
+    <div class="footer" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="footer_logo">
-                        <a href="index.html"><img src="images/logo_beauty.png" alt="logo" /></a>
+                        <a href="{{route('home')}}"><img src="{{asset('images/logo_beauty.png')}}" alt="logo" /></a>
                     </div>
                 </div>
                 <div class="col-md-12">

@@ -7,7 +7,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div class="full">
-                                <a class="logo" href="index.html"><img src="images/logo_beauty.png" alt="#" /></a>
+                                <a class="logo" href="{{route('home')}} "><img src="{{asset('images/logo_beauty.png')}}" alt="#" /></a>
                             </div>
                         </div>
                         <div class="col-md-9">

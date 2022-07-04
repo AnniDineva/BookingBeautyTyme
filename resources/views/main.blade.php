@@ -5,7 +5,7 @@
 
             <!-- start slider section -->
             <div class="slider_section banner_bg">
-                <img src="images/bg1.jpg">
+                <img src="{{asset('images/bg1.jpg')}}">
                 <div class="container">
                     <div class="text_box">
                         <span class="whiteColor">Stylish Hair</span>
@@ -32,7 +32,7 @@
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div class="about_img">
-                                <figure><img src="images/about_img.png" alt="#" /></figure>
+                                <figure><img src="{{asset('images/about_img.png')}}" alt="#" /></figure>
                             </div>
                         </div>
                     </div>
@@ -65,21 +65,21 @@
                                         <div class="row">
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
-                                                    <figure><img src="images/ser1.png"></figure>
+                                                    <figure><img src="{{asset('images/ser1.png')}}"></figure>
                                                     <h3>Clean Shave</h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
-                                                    <figure><img src="images/ser.png"></figure>
+                                                    <figure><img src="{{asset('images/ser.png')}}"></figure>
                                                     <h3> Haircut Styles</h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
-                                                    <figure><img src="images/ser3.png"></figure>
+                                                    <figure><img src="{{asset('images/ser3.png')}}"></figure>
                                                     <h3>Face Masking</h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
                                                 </div>
@@ -95,21 +95,21 @@
                                         <div class="row">
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
-                                                    <figure><img src="images/ser1.png"></figure>
+                                                    <figure><img src="{{asset('images/ser1.png')}}"></figure>
                                                     <h3>Clean Shave</h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
-                                                    <figure><img src="images/ser.png"></figure>
+                                                    <figure><img src="{{asset('images/ser.png')}}"></figure>
                                                     <h3> Haircut Styles</h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
-                                                    <figure><img src="images/ser3.png"></figure>
+                                                    <figure><img src="{{asset('images/ser3.png')}}"></figure>
                                                     <h3>Face Masking</h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
                                                 </div>
@@ -125,21 +125,21 @@
                                         <div class="row">
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
-                                                    <figure><img src="images/ser1.png"></figure>
+                                                    <figure><img src="{{asset('images/ser1.png')}}"></figure>
                                                     <h3>Clean Shave</h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
-                                                    <figure><img src="images/ser.png"></figure>
+                                                    <figure><img src="{{asset('images/ser.png')}}"></figure>
                                                     <h3> Haircut Styles</h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
-                                                    <figure><img src="images/ser3.png"></figure>
+                                                    <figure><img src="{{asset('images/ser3.png')}}"></figure>
                                                     <h3>Face Masking</h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
                                                 </div>
@@ -170,7 +170,7 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mar_bottom">
                             <div class="pricing_img">
-                                <figure><img src="images/vvv.png" alt="#" />
+                                <figure><img src="{{asset('images/vvv.png')}}" alt="#" />
                                 </figure>
                             </div>
                         </div>
@@ -253,7 +253,7 @@
 
                                     <div class="item">
                                         <div class="product_blog_img">
-                                            <img src="images/1.png" alt="#" />
+                                            <img src="{{asset('images/1.png')}}" alt="#" />
                                         </div>
                                         <div class="product_blog_cont">
                                             <h3>Jone due</h3>
@@ -262,7 +262,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="product_blog_img">
-                                            <img src="images/2.png" alt="#" />
+                                            <img src="{{asset('images/2.png')}}" alt="#" />
                                         </div>
                                         <div class="product_blog_cont">
                                             <h3>Jne due</h3>
@@ -271,7 +271,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="product_blog_img">
-                                            <img src="images/3.png" alt="#" />
+                                            <img src="{{asset('images/3.png')}}" alt="#" />
                                         </div>
                                         <div class="product_blog_cont">
                                             <h3>Jkne due</h3>
@@ -280,7 +280,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="product_blog_img">
-                                            <img src="images/1.png" alt="#" />
+                                            <img src="{{asset('images/1.png')}}" alt="#" />
                                         </div>
                                         <div class="product_blog_cont">
                                             <h3>Jone due</h3>
@@ -289,7 +289,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="product_blog_img">
-                                            <img src="images/2.png" alt="#" />
+                                            <img src="{{asset('images/2.png')}}" alt="#" />
                                         </div>
                                         <div class="product_blog_cont">
                                             <h3>Jne due</h3>
@@ -298,7 +298,7 @@
                                     </div>
                                     <div class="item">
                                         <div class="product_blog_img">
-                                            <img src="images/3.png" alt="#" />
+                                            <img src="{{asset('images/3.png')}}" alt="#" />
                                         </div>
                                         <div class="product_blog_cont">
                                             <h3>Jkne due</h3>
@@ -353,7 +353,7 @@
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                 <div class="img-box">
-                                    <figure><img src="images/img.jpg" alt="img" /></figure>
+                                    <figure><img src="{{asset('images/img.jpg')}}" alt="img" /></figure>
                                 </div>
                             </div>
                         </div>

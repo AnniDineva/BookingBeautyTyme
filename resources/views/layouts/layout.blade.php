@@ -65,6 +65,29 @@ $(document).ready(function() {
         $('.collapse.in').toggleClass('in');
         $('a[aria-expanded=true]').attr('aria-expanded', 'false');
     });
+    function calculateFooterTop(){
+    $('#footer').css('top', '');
+    if ($('#footer').length && $('#footer').css('position') != 'absolute'){
+        
+        var documentElements = [
+            'header',
+            'main',
+            'footer'
+        ];
+        var documentHeight = 0;
+        documentElements.forEach(function(element){
+            documentHeight += $(element).outerHeight();
+            documentHeight += parseFloat($(element).css('marginTop'));
+            documentHeight += parseFloat($(element).css('marginBottom'));
+        })
+        var windowHeight = $( window ).height();
+        
+        if (windowHeight > documentHeight){
+            $('#footer').css('top', (windowHeight - documentHeight) + 'px');
+        }
+    }
+}
+calculateFooterTop();
 });
 </script>
 

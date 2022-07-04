@@ -95,6 +95,14 @@
         </div>
     </div>
 </div>
-
-
+<style>
+@media screen and (min-height: 615px) and (min-width: 1120px) {
+    #footer {
+        position: absolute;
+        top: 30.5%;
+        width: 100%;
+}
+    }
+  }
+</style>
 @endsection

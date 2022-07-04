@@ -563,6 +563,12 @@ header .container-fluid {
     position: relative;
 }
 
+.banner_bg img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 .text_box {
     position: absolute;
     top: 50%;
@@ -789,7 +795,7 @@ header .container-fluid {
 
 .pricing .pricing_box .list {
     border-style: dashed;
-    color: #0aa4fa;
+    color: #5F378D;
     padding: 18% 0px;
     height: 100%;
     border-width: 1px;
@@ -1225,7 +1231,7 @@ a.article:hover {
 }
 
 .yellow_bg {
-    background-color: #1993c0;
+    background-color: #5F378D;
     padding: 40px 0px;
 }
 
@@ -1271,4 +1277,12 @@ a.article:hover {
 
 .whiteColor {
     color: white !important;
+}
+
+.linkMenu {
+    padding: 10px 25px;
+    font-size: 1.3em;
+    display: block;
+    font-weight: 300;
+    color: #222222;
 }

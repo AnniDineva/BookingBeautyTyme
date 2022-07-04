@@ -21,8 +21,8 @@ class AuthenticatedSessionController extends Controller
     public function create()
     {
        
-       // return view('auth.login');
-       return Redirect::back()->with('error_code', 5);
+       return view('auth.login');
+       //return Redirect::back()->with('error_code', 5);
     }
 
     /**
@@ -42,7 +42,7 @@ class AuthenticatedSessionController extends Controller
 
         $username=Auth:: user()->name;
        
-
+        $request->session()->forget('error_code');
         return redirect()->intended(RouteServiceProvider::HOME)->with('success',"Wellcome, $username"); ;
     }
 
